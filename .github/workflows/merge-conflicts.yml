@@ -2,7 +2,7 @@ name: Merge conflicts
 on:
   push:
     branches:
-      - gh-pages # master
+      - master
 jobs:
   triage:
     runs-on: ubuntu-latest

@@ -2,7 +2,7 @@ name: PR update
 on:
     push:
         branches: 
-            - gh-pages # master
+            - master
 
 jobs:
     autoupdate:
